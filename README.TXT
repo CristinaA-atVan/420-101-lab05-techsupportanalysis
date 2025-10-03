@@ -38,9 +38,14 @@ as ArrayList, HashMap, HashSet, and Random.
         return found;
     }
 31. It returns false
-32. The values() method
+32. The entrySet() method
 33, 37, 38. Didn't read these questions when I opened this version of the project.
     The questions are already answered.
 34. Their implementations are not synchronized and they have iterators
 35. You don't need to remember an index number
 36. I don't know, but it's a string so I don't think so
+40, 41, 42. My head was spinning trying to figure any of these out, sorry
+43. From the documentation:
+    If the specified key is not already associated with a value (or is mapped to null) associates it with the given value and returns null, else returns the current value.
+45. I don't care if I'll fail, I cannot wrap my head around this
+46. It's good enough

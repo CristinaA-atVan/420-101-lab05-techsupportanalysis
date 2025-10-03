@@ -31,4 +31,13 @@ public class WordCounter
             counts.put(word, counter + 1);
         }
     }
+    
+    /**
+     * Print the usage of every word
+     * Answer to Question 44
+     */
+    public void printWords()
+    {
+        System.out.println(counts.entrySet());
+    }
 }

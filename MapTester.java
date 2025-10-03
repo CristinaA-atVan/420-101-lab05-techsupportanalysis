@@ -1,5 +1,6 @@
 import java.util.HashMap;
 /**
+ * Debug Class
  * This whole class is the answer to Question 27
  *
  * @author (your name)
