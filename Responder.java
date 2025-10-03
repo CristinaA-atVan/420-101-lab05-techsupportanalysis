@@ -25,6 +25,7 @@ public class Responder
     // Default responses to use if we don't recognise a word.
     private ArrayList<String> defaultResponses;
     private Random randomGenerator;
+    private int prevIndex;
 
     /**
      * Construct a Responder
@@ -36,6 +37,7 @@ public class Responder
         fillResponseMap();
         fillDefaultResponses();
         randomGenerator = new Random();
+        prevIndex = 69;
     }
 
     /**
@@ -170,7 +172,12 @@ public class Responder
     {
         // Pick a random number for the index in the default response list.
         // The number will be between 0 (inclusive) and the size of the list (exclusive).
+        // The same response won't be used twice in a row (Question 40)
         int index = randomGenerator.nextInt(defaultResponses.size());
+        while(index == prevIndex) {
+            index = randomGenerator.nextInt(defaultResponses.size());
+        }
+        prevIndex = index;
         return defaultResponses.get(index);
     }
 }

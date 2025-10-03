@@ -27,3 +27,20 @@ Then start describing your problem by typing in the terminal window.
 
 The purpose of this project is to demonstrate and study library classes, such 
 as ArrayList, HashMap, HashSet, and Random.
+
+24. A HashMap stores pairs of values. You can put and get values in it with put and get
+26. The size() function
+28. Updates value
+29. Duplicates get overwritten
+30. public boolean searchName(String name)
+    {
+        boolean found = contacts.containsKey(name);
+        return found;
+    }
+31. It returns false
+32. The values() method
+33, 37, 38. Didn't read these questions when I opened this version of the project.
+    The questions are already answered.
+34. Their implementations are not synchronized and they have iterators
+35. You don't need to remember an index number
+36. I don't know, but it's a string so I don't think so
